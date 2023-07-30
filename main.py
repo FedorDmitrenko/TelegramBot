@@ -1,7 +1,7 @@
 import telebot
 import webbrowser
 #Токен
-bot = telebot.TeleBot("6093499792:AAH8hV3zVAMGgee7GnJ4ZU0JVLQp_yKtRuI")
+bot = telebot.TeleBot("")
 #старт
 @bot.message_handler(commands=['start', 'main', 'hello'])
 def main(message):
